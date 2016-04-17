@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --config webpack.dev.config.js",
+    "dev": "webpack-dev-server --hot --config webpack.dev.config.js --content-base dist/ --devtool eval --port 8080",
     "lint": "eslint src/js --ext .js --ext .jsx"
   },
   "author": "kOlo",
@@ -21,7 +22,8 @@
     "eslint": "^2.8.0",
     "eslint-plugin-babel": "^3.2.0",
     "eslint-plugin-react": "^4.3.0",
-    "webpack": "^1.13.0"
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "react": "^15.0.1",

@@ -1,7 +1,10 @@
 var path = require('path');
 
 module.exports = {
-  entry: [ path.join(__dirname, 'src/js/index') ],
+  entry: [
+    'webpack/hot/dev-server',
+    path.join(__dirname, 'src/js/index')
+  ],
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js'
