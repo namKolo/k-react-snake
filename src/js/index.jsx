@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Greeting from './greeting';
+import KSnake from './k-snake';
 
 ReactDOM.render(
-  <Greeting name="World"/>, document.getElementById('KOLO_SNAKE')
+  <KSnake />, document.getElementById('KOLO_SNAKE')
 );
